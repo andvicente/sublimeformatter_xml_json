@@ -1,15 +1,18 @@
 Formatando arquivos XML e JSON no Sublime Text 3
 
 Passo 1: Adicione os arquivos prettify_json.py e tidy_xml.py 
-         - Menu Preferences -> Browse packages… 
-         - Irá abrir uma nova janela apontando para $HOME/.config/sublime-text-3/Packages
-         - Cole os dois arquivos nessa pasta
-         
+<ul>
+  <li>Menu Preferences -> Browse packages… </li>
+  <li>Irá abrir uma nova janela apontando para $HOME/.config/sublime-text-3/Packages</li>
+  <li>Cole os dois arquivos nessa pasta</li>
+</ul>
+        
 Passo 2: Configurar os atalhos do teclado para formatar o JSON e o XML
-         - Menu Preferences -> Key Bindings – User.
-         - Irá abrir um arquivo no Sublime
-         - Edite e cole o seguinte texto:
-         
+<ul>
+  <li>Menu Preferences -> Key Bindings – User</li>
+  <li>Irá abrir um arquivo no Sublime</li>
+  <li>Edite e cole o seguinte texto:</li>
+</ul>
 ```<JSON>
 [
     { "keys": ["ctrl+shift+x"], "command": "tidy_xml" },
@@ -18,7 +21,11 @@ Passo 2: Configurar os atalhos do teclado para formatar o JSON e o XML
 ```
 
 Como utilizar:
-		Formatar XML: ctrl + shift + x
-		Formatar JSON: ctrl + shift + j
+<ul>
+  <li><b>Formatar XML:</b> ctrl + shift + x</li>
+  <li><b>Formatar JSON:</b> ctrl + shift + j</li>
+</ul>
+		
+		
 
-Fontes: http://blog.bytenoodles.com/sublime-text-3-plugins-get-pretty-xml-json
+<b>Fonte:</b> <a href="http://blog.bytenoodles.com/sublime-text-3-plugins-get-pretty-xml-json">http://blog.bytenoodles.com/sublime-text-3-plugins-get-pretty-xml-json</a>
