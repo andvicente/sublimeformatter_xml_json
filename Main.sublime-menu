@@ -1,0 +1,21 @@
+[
+  {
+    "caption": "Selection",
+    "children": [
+      { "caption": "-" },
+      {
+        "caption": "Format",
+        "children": [ {
+          "caption": "JSON",
+          "command": "prettify_json"
+        },
+        {
+          "caption": "XML",
+          "command": "tidy_xml"
+        } ],
+        "id": "format"
+      }
+    ],
+    "id": "selection"
+  }
+] 
